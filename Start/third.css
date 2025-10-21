@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(192, 240, 192);
+    padding: 1px 5px;
+    margin: 0 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 5px;
+}
+header nav {
+    display: flex;
+    gap: 40px;
+}
+nav li{
+    list-style: none;
+
+}
+nav li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.nura{
+    display: flex;
+    gap: 2px;
+    color: green;
+}
+.nura ion-icon{
+    font-size: 35px;
+}
+.zu{
+    display: flex; 
+    gap: 20px;   
+}
+.zu button{
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.zu .zi{
+     background-color: green;
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid black;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(79, 76, 76);
+    padding: 100px;
+    
+}
+.one1 img{
+    width: 280px;
+    height: 310spx;
+    /* padding: 5px; */
+    border-radius: 26px;
+}
+.one1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 2px 4px 15px #6c6969;
+    width: 300px;
+    /* padding: 10px; */
+    border-radius: 26px;
+    background-image: url(/Abnur.jpg);
+    background-size: cover;
+    height: 400px;
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    /* font-weight: 600; */
+    backdrop-filter: blur(10px);
+    margin-top: 280px;
+    width: px;
+    padding: px;
+    border-radius: 26px;
+    /* margin-bottom: 10px; */
+
+}
+
+.Abtick{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    font-size: medium;
+    
+}
+.web{
+    padding: 5px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-content: space-between; */
+    gap: 15px;
+    font-size: large;
+    justify-content: space-between;
+    /* font-size: 25px; */
+}
+.flw{
+    border-radius: 15px;
+    padding: 7px 25px;
+
+}
