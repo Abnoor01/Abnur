@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    background: url(hood.jpg);
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-size: cover;
+  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.475);
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    height: 290px;
+    width: 308px;
+    margin-top: 200px;
+    gap: 20px;
+    padding: 10px;
+
+}
+input{
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 40px;
+    text-align: center;
+    
+    
+}
+.loginbox{
+    display: flex;
+    gap: 10px;
+    
+}
+button{
+    /* background-color: rgb(41, 173, 230); */
+    background-color:  rgba(149, 153, 159, 0.509);
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid white ;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+form button:hover{
+    transform: scale(1.2);
+    background-color: rgba(76, 145, 235, 0.29);
+}
+
+.btin{
+    /* background: black; */
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    
+
+}
+.btup{
+    /* background: black; */
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    
+}
+.links{
+    display: flex;
+    gap: 20px;
+    
+}
+.lk1{
+    color: white;
+    font-weight: 600;
+}
+.lk2{
+    color: white;
+    font-weight: 600;
+}
+
+.login{
+    padding: 6px 80px;
+    background: transparent;
+}

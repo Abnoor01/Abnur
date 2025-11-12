@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(frm.png); */
+    background-image: url(hood.jpg);
+    background-size: contain; 
+    
+   
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 400px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    text-transform: capitalize;
+    
+}
+
+input{
+    padding: 6px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+form h2{
+    color: white;
+   margin-bottom: 20px;
+}
+
+/* form button{ 
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid white ;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+} */
+.ja{
+    /* display: flex;
+    gap: 10px; */
+}
+.ja button{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid white ;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+  
+}
+.ja .za{
+     background-color: orange;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid white ;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    transform: scale(1);
+    background-color: rgb(235, 118, 76);
+}
+

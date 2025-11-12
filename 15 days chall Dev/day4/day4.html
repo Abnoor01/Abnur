@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abnur Ticket Generator</title>
+    <link rel="stylesheet" href="day4.css">
+    <!-- <link rel="stylesheet" href="script.js"> -->
+</head>
+<body>
+    <div class="ticket-form">
+        <h2>🎟 Event Ticket Generator</h2>
+        <form id="ticketform">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="date">Event Date</label>
+            <input type="date" id="date">
+            <label for="type">Ticket Type</label>
+            <select id="Type" required>
+                <option value="">Select Ticket Type</option>
+                <option value="Vip">Vip</option>
+                <option value="Regular">Regular</option>
+                <option value="Student">Student</option>
+            </select>
+            <button type="submit">Generate Ticket</button>
+            
+        </form>
+    </div>
+    <div class="ticket-preview" id="ticket-preview">
+        <h3>🎫 Your Ticket</h3>
+        <p><strong>Name</strong> <span id="tName"></span></p>
+        <p><strong>Email</strong> <span id="tEmail"></span></p>
+        <p><strong>Event Date</strong> <span id="tDate"></span></p>
+        <p><strong>Ticket Type</strong> <span id="tType"></span></p>
+</div>
+        <script src="script.js"></script>
+</body>
+</html>

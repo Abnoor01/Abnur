@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+body{
+    background: linear-gradient(135deg, #7f00ff, #e100ff);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color:#333 ;
+    /* margin: 0; */
+    
+}
+.ticket-form{
+    background: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 30px 40px;
+    border-radius: 16px; 
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+
+}
+.ticket-form h2{
+    color:  #6a0dad;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+label{
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+input, select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+input:focus,select:focus{
+    border-color:  #6a0dad;
+    box-shadow: 0 0 8px #b37bff;
+
+}
+button{
+    background: #6a0dad;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+button:hover{
+    background: #b37bff;
+    transition: 0.3s;
+}
+.ticket-preview{
+    margin-top: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+
+}
+
+.ticket-preview h3 {
+  color: #6a0dad;
+  margin-bottom: 10px;
+}
+.ticket-preview p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
